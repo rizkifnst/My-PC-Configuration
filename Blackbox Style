@@ -1,48 +1,26 @@
-*button.pressed.appearance: sunken solid
-*button.pressed.backgroundColor: darkgrey
-*button.appearance: parentrelative
-*button.foregroundColor: black
-
-*backgroundColor: rgb:dd/dd/d7
-*color1: rgb:dd/dd/d7
-*color2: rgb:ee/ee/e7
-
-*font: Luxi Mono-10.5
-
-*borderColor: black
-*borderWidth: 1
-*marginWidth: 2
+#### Menu ####
 
 menu.title.appearance: flat solid border
 menu.title.backgroundColor: rgb:80/00/00
 menu.title.foregroundColor: black
 menu.title.textColor: white
 menu.title.alignment: center
-menu.title.font: Bitstream Vera Sans-10.09:style=Bold
+menu.title.font: Rye-10:style=Bold
 
 menu.frame.appearance: raised gradient border
 menu.frame.textColor: black
-menu.frame.foregroundColor: grey40
+menu.frame.foregroundColor: black
 menu.frame.disabledColor: darkgrey
 menu.frame.alignment: left
+menu.frame.font: Liberation Mono-10.5
 
 menu.active.appearance: flat solid border
 menu.active.backgroundColor: rgb:1a/1a/1a
 menu.active.foregroundColor: white
 menu.active.textColor: white
 
-rootCommand: bsetbg /path/to/artsfon.com-28914.jpg
 
-slit.appearance: raised solid
-slit.backgroundColor: rgb:aa/aa/aa
-slit.marginWidth: 3
-
-toolbar.appearance: raised gradient border
-toolbar.alignment: center
-toolbar*textColor: black
-toolbar.label.appearance: parentrelative
-toolbar.clock.appearance: parentrelative
-toolbar.windowLabel.appearance: parentrelative
+#### Window ####
 
 window.title.focus.appearance: raised gradient border
 window.title.focus.color1: rgb:80/00/00
@@ -69,5 +47,41 @@ window.grip.focus.backgroundColor: rgb:a5/1d/1e
 window.grip.unfocus.appearance: raised solid border
 
 window*alignment: center
-window.font: Bitstream Vera Sans-9:style=Bold
+window.font: Bitstream Vera Sans-10:style=Bold
 window.handleHeight: 8
+
+
+#### Toolbar ####
+
+toolbar.font: Luxi Mono-10.5
+
+toolbar.appearance: raised gradient border
+toolbar.alignment: center
+toolbar*textColor: black
+toolbar.label.appearance: parentrelative
+toolbar.clock.appearance: parentrelative
+toolbar.windowLabel.appearance: parentrelative
+
+
+#### The Rest ####
+
+*button.pressed.appearance: sunken solid
+*button.pressed.backgroundColor: darkgrey
+*button.appearance: parentrelative
+*button.foregroundColor: black
+
+*backgroundColor: rgb:ff/ff/ff
+*color1: rgb:ff/ff/ff
+*color2: rgb:ff/ff/ff
+
+*font: Courier 10 Pitch-12
+
+*borderColor: black
+*borderWidth: 1
+*marginWidth: 3
+
+slit.appearance: raised solid
+slit.backgroundColor: rgb:aa/aa/aa
+slit.marginWidth: 3
+
+rootCommand: bsetbg /path/to/BB.jpg
