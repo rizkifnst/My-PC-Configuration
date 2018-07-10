@@ -1,4 +1,4 @@
-# My-PC-Configuration
+# configuration
 <p>These are my PC configuration. I use Slackware for operating system, Blackbox for window manager, Mrxvt for terminal emulator, and Vim for text editor.</p>
 
 <p><b>root</b> is my Blackbox window manager style. Including font and wallpaper used in it.</p>
